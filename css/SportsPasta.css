@@ -1,0 +1,112 @@
+/* active tab color */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    background-color: #00CC66;
+}
+
+.FancyTextBox
+{
+ padding:0 5px; font-weight:normal; font-size:14px; border:0; border-bottom:2px dashed #ccc; background-color:#ecf0f1;
+}
+
+.FancyTextBoxTransparent
+{
+ padding:0 5px; font-weight:normal; font-size:14px; border:0; border-bottom:2px dashed #ccc; 
+}
+
+.iconsp {
+    width:80px;
+    height:80px;
+    text-align:center;
+    background:#cccfd5;
+    color:#fff;
+    font-size:28px;
+    line-height:80px;
+    border-radius:50%;
+    box-shadow:0 3px rgba(0,0,0,0.05);
+    -webkit-transition:background .3s ease-out;
+    transition:background .3s ease-out;
+}
+
+.messageImage
+{
+    float:left; 
+    margin-right:5%;
+    width:75px;
+    height:75px;
+}
+.messageHeading{
+	float:left;
+    width:50%;
+	font-size: large;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.messageTime{
+	font-size:12px;
+	color:#888;
+	width:50%;
+	text-align: right;
+	vertical-align:middle;
+
+
+}
+.messageDetails
+{
+    margin-top: 1em;
+	vertical-align:middle;
+}
+
+.messageReply 
+{
+    font-weight:bold;
+}
+
+
+.image-thumb, .image-thumb img {
+
+  width:70px;
+  height:70px;
+
+  padding-right:4px;
+  padding-bottom:4px;
+}
+
+
+.image-thumb-large, .image-thumb-large img {
+
+  width:210px;
+  height:210px;
+
+  padding-right:4px;
+  padding-bottom:4px;
+}
+
+
+.image-fav {
+  display:none;
+  position:absolute;
+  top:0;
+  right:0;
+  width:64px;
+  height:52px;
+  background-image:url(../images/delete.jpg);
+}
+
+.image-fav1 {
+  display:none;
+  position:absolute;
+  top:0;
+  right:68px;
+  width:64px;
+  height:52px;
+  background-image:url(../images/edit.jpg);
+}
+
+.image-thumb:hover .image-fav, .image-thumb:hover .image-fav1 {
+  display:block;
+}
+.image-fav:hover, image-fav1.hover {
+
+}

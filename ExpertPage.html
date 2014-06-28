@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <title>User Profile</title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes' name='viewport'>
+        <!-- bootstrap 3.0.2 -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Ionicons -->
+        <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Morris chart -->
+        <link href="css/morris/morris.css" rel="stylesheet" type="text/css" />
+        <!-- jvectormap -->
+        <link href="css/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+        <!-- fullCalendar -->
+        <link href="css/fullcalendar/fullcalendar.css" rel="stylesheet" type="text/css" />
+        <!-- Daterange picker -->
+        <link href="css/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+        <!-- bootstrap wysihtml5 - text editor -->
+        <link href="css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+        <!-- Theme style -->
+        <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <link href="css/SportsPasta.css" rel="stylesheet" type="text/css" />
+
+
+        <link href="css/neat-blue.css" rel="stylesheet" media="screen" id="neat-stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet" type="text/css">
+        <link href="css/theme-switcher.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic,700italic|Lustria" rel="stylesheet" type="text/css" />
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- jQuery UI 1.10.3 -->
+        <script src="js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+		<script src="js/typeahead.bundle.min.js"></script>
+		<script src="js/tab.js" type="text/javascript"></script>
+
+
+    </head>
+</head>
+<body class="skin-blue">
+
+      <div id="nav-wrapper" class="background-white color-black">
+      <nav id="mainMenu" class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar background-lead"></span>
+              <span class="icon-bar background-lead"></span>
+              <span class="icon-bar background-lead"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo">Neat</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li class="divider"></li>
+                  <li><a href="registration.html">Registration</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register-login.html">Register/Login</a></li>
+                  <li class="divider"></li>
+                  <li><a href="404.html">Error 404</a></li>
+                  <li class="divider"></li>
+                  <li><a href="article.html">Article</a></li>
+                  <li><a href="typography.html">Typography</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="entry-list.html">List of entries</a></li>
+                  <li><a href="entry.html">Entry</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-item.html">Portfolio Item</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <form class="form-inline" role="form">
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="submit">Search</button>
+                        </span>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-lock"></span></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <form role="form">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Remember me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-default">Login</button>
+                      <span class="color-white"><button type="button" class="btn btn-link pull-right">Register</button></span>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
+
+
+    </div>
+
+
+      <div class="wrapper">
+                <!--Breadcrump -->
+                <section class="content-header">
+                    <h1>
+                        Dashboard
+                        <small>Control panel</small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li class="active">Dashboard</li>
+                    </ol>
+                </section>
+
+
+
+
+
+        </div><!-- ./wrapper -->
+
+
+
+
+
+    <section>
+      <div class="container">
+
+
+	  <div class="row">
+                    <div class="col-md-12">
+                      <div class="panel panel-default">
+			                 <div class="panel-body" >
+ 
+									<div style="clear:both">
+ 	          						<h3>Expert Corner</h3> 
+									</div><hr />
+		
+ 	          							<div class="row">
+											<div class="col-md-12" style="overflow:auto">
+												<img class="messageImage" src="https://cf-01.zirtual.com/website_v2/img/testimonial-leigh-gallagher.jpg"></img>
+												<div class="messageHeading">Tips for improving your lap speed</div>
+												<div > by Manish Agarwal</div>
+
+												<div class="messageDetails">Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. <a href="ExpertArticle.html"> Read More...</a></div>
+
+
+											</div>
+										</div>
+
+										<br><br>
+										<div class="row">
+											<div class="col-md-12" style="overflow:auto">
+												<img class="messageImage" src="https://cf-01.zirtual.com/website_v2/img/testimonial-leigh-gallagher.jpg"></img>
+												<div class="messageHeading">Tips for improving your lap speed</div>
+												<div > by Manish Agarwal</div>
+
+												<div class="messageDetails">Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. <a href="ExpertArticle.html"> Read More...</a></div>
+
+
+											</div>
+										</div>
+										<br>
+
+	
+                            </div><!--/panel-body-->
+                     </div><!--/panel-->
+                    </div> 
+
+					</div>
+      </div>
+    </section>
+
+
+	<div class="modal" id="EditProfilePhoto">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Edit Profile Photo</h4>
+        </div>
+        <div class="modal-body">
+            <form id="form1" runat="server">
+            <span class="btn btn-default btn-file">
+            Browse <input type="file" id="imgInp">  
+            </span>
+            </form>
+            <img id="blah" src="#" alt="your image" style="width:150px" />
+        </div>
+        <div class="modal-footer">
+            <a href="#" data-dismiss="modal" class="btn">Close</a>
+            <a href="#" class="btn btn-primary">Save changes</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</body>
+</html>
